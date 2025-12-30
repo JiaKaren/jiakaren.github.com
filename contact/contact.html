@@ -1,0 +1,91 @@
+<!-- Contact Section Content -->
+<section id="contact" class="section">
+    <div class="container">
+        <div class="section-header">
+            <p class="section-title">Get In Touch</p>
+            <h2>Contact Me</h2>
+        </div>
+
+        <div class="grid grid-2">
+            <div class="contact-form">
+                <h3>Send Me a Message</h3>
+                <form id="contact-form" action="https://formsubmit.co/kangwen.jia@outlook.com" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject *</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+
+                    <!-- FormSubmit hidden fields -->
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="http://localhost:5051/#contact?success=true">
+
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+
+            <div class="contact-info">
+                <h3>Ways to Connect</h3>
+                
+                <div class="contact-item">
+                    <h4>📧 Email</h4>
+                    <p><a href="mailto:kangwen.jia@outlook.com">kangwen.jia@outlook.com</a></p>
+                </div>
+
+                <div class="social-icons-grid">
+                    <div class="social-icon-item">
+                        <a href="https://youtube.com" target="_blank">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIr9hONlD0PD1OH-_PUjCoLrCVPJP1DP1wNg&s" 
+                                 alt="WeChat Icon">
+                        </a>
+                        <p>WeChat</p>
+                    </div>
+
+                    <div class="social-icon-item">
+                        <a href="https://github.com/JiaKaren" target="_blank">
+                            <img src="https://cdn3.iconfinder.com/data/icons/inficons/512/github.png" 
+                                 alt="GitHub Icon">
+                        </a>
+                        <p>GitHub</p>
+                    </div>
+
+                    <div class="social-icon-item">
+                        <a href="https://karenslifestyleblog.blogspot.com/" target="_blank">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Blogger.svg/1200px-Blogger.svg.png" 
+                                 alt="Blog Icon">
+                        </a>
+                        <p>My Blog</p>
+                    </div>
+
+                    <div class="social-icon-item">
+                        <a href="https://www.youtube.com/@inquisitivekids3404" target="_blank">
+                            <img src="https://th.bing.com/th/id/R.311bf1afeec6d51c6e1ff6e3d44a23f3?rik=nCO5M4Gi7Ly6Hg&pid=ImgRaw&r=0&adlt=strict" 
+                                 alt="YouTube Icon">
+                        </a>
+                        <p>YouTube</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <h4>📍 Location</h4>
+                    <p>Boston, Massachusetts</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
