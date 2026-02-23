@@ -1,0 +1,238 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{}
+
+\begin{document}
+
+\begin{quote}
+Learning Languages: Unlocking Paths to\hspace{0pt}New
+Horizons\hspace{0pt}
+
+Written by: Karen Jia\hspace{0pt}\\
+Published: February 22, 2026\hspace{0pt}
+
+At the beginning of English class, my teacher posed the following
+question to me and my\hspace{0pt}eighth grade classmates: ``Where do you
+think you would find the oldest,\hspace{0pt}\\
+continuously-operating university in the world?'' We each wrote our
+responses on a piece\hspace{0pt}of paper. Afterward, my teacher asked
+everyone to share their answers.\hspace{0pt}
+
+An overwhelming majority of students responded with cities like
+``Oxford'' or ``Boston.\hspace{0pt}instinctively associating
+intellectual longevity with Western institutions. To our
+surprise,\hspace{0pt}my teacher revealed that the right answer was, in
+fact, the University of al-Qarawiyyin,\hspace{0pt}recognized by Guinness
+World Records and UNESCO as the oldest operating university
+in\hspace{0pt}the world. This university is located in Fez, Morocco and
+was founded in the year 859 AD\hspace{0pt}by Fatima al-Fihri during the
+Islamic Golden Age. It was one of the greatest
+leading\hspace{0pt}educational institutions of its time.\hspace{0pt}
+
+My classmates' homogenous answers revealed more than a gap in historical
+knowledge;\hspace{0pt}they reflected how centuries of Western
+imperialism and globalization have positioned\hspace{0pt}Western
+knowledge as the default. The problem was not that my classmates
+were\hspace{0pt}unintelligent--- it was that many of us had been limited
+to a single culture, and thus, world\hspace{0pt}view.\hspace{0pt}
+
+Expanding our cultural knowledge can break through this mindset.
+Learning new\hspace{0pt}\\
+languages is not merely a tool for communication; it reshapes how we
+think, broadens our\hspace{0pt}empathy, and enables individuals-- and
+therefore societies-- to engage with the world in a\hspace{0pt}more
+thoughtful and responsible manner.\hspace{0pt}
+
+I grew up in a bilingual household with Chinese immigrant parents.
+Although it is common\hspace{0pt}among immigrant families to prioritize
+teaching English to their children to fit in, my\hspace{0pt}parents
+insisted on speaking Chinese at home. Looking back, I am grateful for
+every daily\hspace{0pt}conversation and every annual summer trip to
+China. Maintaining Chinese preserved my\hspace{0pt}connection to my
+heritage and expanded my worldview.\hspace{0pt}
+
+Thanks to my access to another language, I consumed English and Mandarin
+media,\hspace{0pt}noticing differences in culture. Over time, I realized
+that certain Chinese words and\hspace{0pt}expressions even carried
+nuances in meanings that could not be fully translated
+into\hspace{0pt}English. Now I can acknowledge that learning languages
+is truly the best way to\hspace{0pt}understand a culture
+fully.\hspace{0pt}
+
+This personal experience aligns with research. Studies by
+the\hspace{0pt}\hspace{0pt}\hspace{0pt}show that multilingual people
+often demonstrate\hspace{0pt}
+
+and cognitive flexibility because they constantly manage multiple
+linguistic systems.\hspace{0pt}Switching between languages strengthens
+attention control and the ability to adapt to new\hspace{0pt}gitudinal
+research even suggests that bilingualism may\hspace{0pt}\hspace{0pt},
+reinforcing that language learning\hspace{0pt}\hspace{0pt}strengthens
+the brain across a\hspace{0pt}lifetime.\hspace{0pt}
+\end{quote}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+Furthermore, language learning fosters identity akers\hspace{0pt}who
+have a familial or ancestral tie to a
+language,\hspace{0pt}\hspace{0pt}.\hspace{0pt}\\
+ae\hspace{0pt}ty and richness of human experience.\hspace{0pt}
+\end{quote}\strut
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{quote}
+Starting elementary school, I began studying French and Japanese. With
+each new set of\hspace{0pt}vocabulary, grammar, and ideas I was
+introduced to, I was putting on a different set of\hspace{0pt}glasses to
+interpret the world. By communicating with speakers of different
+languages,\hspace{0pt}one naturally becomes aware that no perspective is
+universal.\hspace{0pt}
+
+Despite these proven facts, some argue that language learning isn't that
+essential.\hspace{0pt}Particularly with artificial intelligence on the
+rise, translating between languages has\hspace{0pt}become more
+convenient than ever.\hspace{0pt}
+
+Still, digital translators can't keep up with cultural fluency; they
+fail to capture the different\hspace{0pt}worldviews that a different
+culture brings to the table. As stated before, many ideas
+and\hspace{0pt}values aren't able to be directly translated as they may
+have originated independently\hspace{0pt}through a certain culture. Lack
+of ability to interpret and transmit human emotions
+results\hspace{0pt}in inflexible interactions.\hspace{0pt}
+
+The benefits of learning multiple languages extend beyond the
+individual. In the United\hspace{0pt}States, Western culture is often
+regarded as the default. This subtle standard can
+cause\hspace{0pt}limited thinking, lack of creativity, and ignorance
+perhaps can even evolve into arrogance.\hspace{0pt}It is important to
+note that this does not mean rejecting Western culture, ideas, and
+values,\hspace{0pt}but recognizing that when a single narrative
+dominates, our ability to question it weakens.\hspace{0pt}Learning new
+languages can prevent this and widen the horizons of every
+person.\hspace{0pt}
+
+According to the\hspace{0pt}\hspace{0pt},
+people\hspace{0pt}\hspace{0pt}who are fluent in more than
+one\hspace{0pt}language contribade, diplomacy, healthcare, and
+national\hspace{0pt}security. The United States also just happens to be
+a nation of immigrants from all across\hspace{0pt}the world. Diverse
+languages bring diverse ways of thinking, and that is what makes
+our\hspace{0pt}society stronger.\hspace{0pt}
+
+Globally, language learning promotes cooperation and mutual
+respect.\hspace{0pt}s that we can learn from. Only after understanding
+each other can we\hspace{0pt}cooperate and move forward as global
+citizens.\hspace{0pt}
+
+The question my English teacher asked that morning was not really about
+geography. It\hspace{0pt}was about perspective. Why did so many of us
+instinctively center our answers on the\hspace{0pt}West? Because
+language and culture quietly shape what we assume to be the
+academic\hspace{0pt}center of the world.\hspace{0pt}
+
+Language is more than a tool for communication; it is a lens through
+which we interpret\hspace{0pt}the world around us. Essentially, it's
+important for us to seek out perspectives that are\hspace{0pt}different
+from what we're used to. This way, we are less likely to limit ourselves
+to one way\hspace{0pt}of thinking. By learning new languages, we unlock
+not only new cultures, but new ways of\hspace{0pt}thinking--- and move
+closer to becoming more thoughtful individuals, a stronger
+nation,\hspace{0pt}and a more cooperative global community.\hspace{0pt}
+
+Footnotes:\hspace{0pt}
+
+``11 Benefits of Learning a Second Language at an Early Age.'' Brighter
+Futures Indiana,
+2025,\hspace{0pt}brighterfuturesindiana.org/blog/11-benefits-of-learning-a-second-language-at-an-early-age.\hspace{0pt}
+
+``ACTFL \textbar{} the Benefits of Learning Languages.'' ACTFL,
+2024,\hspace{0pt}\\
+www.actfl.org/advocacy-and-public-education/the-benefits-of-learning-languages.\hspace{0pt}
+
+Fantini, Alvino E. ``Language and Worldview.'' The Journal of Baha'i
+Studies, vol. 2, no. 2, 1989, pp.
+13--18,\hspace{0pt}bahai-studies.ca/wp-content/uploads/2014/05/2.2-Fantini.pdf,
+https://doi.org/10.31581/jbs-2.2.2(1989).\hspace{0pt}
+
+Kroll, Judith F., and Paola E. Dussias. ``The Benefits of
+Multilingualism to the Personal and Professional\hspace{0pt}Development
+of Residents of the US.'' Foreign Language Annals, vol. 50, no. 2, 18
+May 2017, pp.
+248--259,\hspace{0pt}www.ncbi.nlm.nih.gov/pmc/articles/PMC5662126/,
+https://doi.org/10.1111/flan.12271.\hspace{0pt}
+
+Marcos, Kathleen. ``Ñandutí \textgreater\textgreater Benefits of Early
+Learning.'' Www.cal.org,\hspace{0pt}\\
+www.cal.org/earlylang/benefits/marcos.html.\hspace{0pt}
+
+Nikolov, Marianne, and Shelagh Rixon. THE BENEFITS of LEARNING
+ADDITIONAL LANGUAGES. June 2025.\hspace{0pt}
+\end{quote}
+
+\end{document}
