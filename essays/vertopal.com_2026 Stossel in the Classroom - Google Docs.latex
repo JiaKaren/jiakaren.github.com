@@ -1,0 +1,132 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{}
+
+\begin{document}
+
+Jia\hspace{0pt}\hspace{0pt}1\hspace{0pt}
+
+\begin{quote}
+Karen Jia\hspace{0pt}\\
+Submission for 2026 Stossel in the Classroom Essay Contest\hspace{0pt}\\
+13 March 2026\hspace{0pt}
+
+The Truth About Tariffs: Who Really Pays?\hspace{0pt}\\
+``I'm going to buy a new car made in the USA!'' my father had
+patriotically announced,\hspace{0pt}only to return with a Japanese SUV
+in the end.\hspace{0pt}\\
+``Dad! You promised to buy American!''\hspace{0pt}\\
+``I tried,'' he replied, ``but foreign cars just made more
+sense.''\hspace{0pt}\\
+The truth is, American patriotism isn't affordable enough. Working and
+middle-class\hspace{0pt}Americans like my family constantly have to
+choose between their own American Dream and\hspace{0pt}supporting
+domestic US businesses. Tariffs-- taxes on imported goods-- are intended
+to help\hspace{0pt}domestic products compete against cheaper foreign
+products. With a higher price placed on\hspace{0pt}foreign goods, it
+seems like consumers would be more inclined to buy the
+cheaper,\hspace{0pt}\\
+domestically-produced alternative. Although tariffs have been successful
+in the past, they did not\hspace{0pt}achieve success alone. In reality,
+tariffs are a short-term solution, but not sustainable for
+the\hspace{0pt}American economy in the long run.\hspace{0pt}\\
+The best way to evaluate tariffs is to review historical policies such
+as the Smoot-Hawley\hspace{0pt}Tariff. After WWI had damaged much of
+Europe's agricultural sector, American farmers saw a\hspace{0pt}surplus
+of food exports to Europe. However, by the 1920s, prices of American
+farm products\hspace{0pt}began rapidly declining due to recovering
+European farmers who brought increased competition.\hspace{0pt}In the
+1928 presidential campaign, Herbert Hoover promised to raise tariffs on
+agricultural\hspace{0pt}imports in an attempt to save the American
+agricultural industry. Despite over 1,000 economists\hspace{0pt}
+\end{quote}
+
+Jia\hspace{0pt}\hspace{0pt}2\hspace{0pt}
+
+\begin{quote}
+warning against it, the Smoot-Hawley Act was signed into law on June 17,
+1930 (``History of\hspace{0pt}Tariffs''). This bill increased tariffs on
+more than 20,000 imported goods by 40\% to
+60\%\hspace{0pt}(``Smoot-Hawley Tariff Act - Overview''). Like many
+other tariff policies, its purpose was to\hspace{0pt}protect American
+businesses and farmers from foreign competition. Yet, the
+negative\hspace{0pt}\\
+consequences far outweighed the benefits that it brought to both
+domestic and foreign consumers\hspace{0pt}and businesses.\hspace{0pt}\\
+Domestically speaking, the American stock market was hit hard when
+foreigners began\hspace{0pt}desperately withdrawing their money because
+of a sudden loss of confidence in Wall Street\hspace{0pt}following the
+Stock Market Crash of 1929. For ordinary Americans, tariffs only raised
+the prices\hspace{0pt}of basic necessities like food and clothing. Both
+of these factors amplified the effects of the
+Great\hspace{0pt}Depression.\hspace{0pt}\\
+Furthermore, repercussions from the Smoot-Hawley Tariff rippled across
+the globe. With\hspace{0pt}countries raising tariffs in response to each
+other, international trade decreased by a total 65\%.\hspace{0pt}From
+1929 to 1932, American exports dropped from \$7 billion to \$2.5
+billion. Farmers were hit\hspace{0pt}especially hard, with farm exports
+decreasing by one third from 1929 to 1933
+(``Smoot-Hawley\hspace{0pt}Tariff Act - Overview''). This brought
+additional economic instability to countries that were
+just\hspace{0pt}recovering from the Great War. Thus, the Smoot-Hawley
+Tariff may be partly responsible for the\hspace{0pt}rise of radical
+political ideas in economically unstable nations.\hspace{0pt}\\
+These historical lessons can be applied to the US-China trade conflicts
+of the 21st\hspace{0pt}century. As China's economy spiked and production
+costs remained lower, the US lost\hspace{0pt}\\
+manufacturing jobs and fell into a deep trade deficit. American
+presidents have tried tariffs as a\hspace{0pt}solution, but they
+ultimately failed their protectionist goals. In 2002, Bush's Chinese
+steel tariff\hspace{0pt}was faced with many retaliatory tariffs as well
+as a lawsuit with the WTO. In 2009, Obama's\hspace{0pt}
+\end{quote}
+
+\end{document}

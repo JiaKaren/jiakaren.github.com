@@ -1,0 +1,227 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{}
+
+\begin{document}
+
+\begin{quote}
+Karen Jia\hspace{0pt}\\
+Ms. Breakall\hspace{0pt}\\
+English 8 Advanced\hspace{0pt}\\
+11 March 2026\hspace{0pt}
+\end{quote}
+
+Remembering the Holocaust: A Lesson to All of Humankind\hspace{0pt}
+
+\begin{quote}
+To the new generation rising from the twenty-first century, the
+Holocaust may feel like\hspace{0pt}nothing more than just a distant,
+painful memory. Many of us are lucky enough to have
+never\hspace{0pt}experienced anything as horrifying as the many
+atrocities committed during this time. Still, it's\hspace{0pt}important
+to remember that the society and background from which the Holocaust
+emerged\hspace{0pt}wasn't as distant from ourselves as we think. The
+Holocaust was not only a campaign led by\hspace{0pt}Nazi authorities--
+it was also a result of the actions and inactions of everyday people as
+they\hspace{0pt}witnessed the inhumane actions of those in
+charge.\hspace{0pt}\\
+Many targeted individuals spoke out against the injustice. Altogether,
+1.5 million Jews\hspace{0pt}retaliated by fighting with the Allies or in
+secret partisan organizations. After learning that
+the\hspace{0pt}so-called ``camps'' were actually graveyards, many Jews
+revolted as a last act of resistance. Out\hspace{0pt}of the many
+uprisings that happened, the most prominent example would be the Warsaw
+Ghetto\hspace{0pt}Uprising of 1943. A 23-year-old Jew named Mordecai
+Anielewicz formed the ZOB, or Jewish\hspace{0pt}Fighting Organization,
+after learning of the killing center they would be sent to.
+Throughout\hspace{0pt}1943, the ZOB resisted German authorities by
+firing on German troops during a round-up of\hspace{0pt}ghetto residents
+to a killing center. The Warsaw Ghetto Uprising lasted for one month,
+with\hspace{0pt}
+\end{quote}
+
+1\hspace{0pt}
+
+\begin{quote}
+7,000 Jews dying while fighting or hiding. Targeted individuals started
+out as ordinary people\hspace{0pt}who ended up fighting to their last
+breath with the honor of a warrior.\hspace{0pt}\\
+In addition to the directly targeted Jews, a few individuals resisted as
+well. Made up of\hspace{0pt}German citizens, the White Rose Movement
+distributed anti-Nazi papers to combat Nazi\hspace{0pt}propaganda.
+Protestant residents in the southern French village of Le
+Chambon-sur-Lignon hid\hspace{0pt}thousands of Jews, many of them
+children, in homes, convents, and monasteries.
+French\hspace{0pt}clergymen sheltered 12,000 Jewish children then
+smuggled them into neutral Switzerland and\hspace{0pt}Spain. Even Warsaw
+Zoo director Jan Zabinski saved many Polish Jews by hiding them in
+the\hspace{0pt}zoo. These individuals were motivated by personal morals
+or religious conviction. Still, they\hspace{0pt}were taking an
+incredible risk-- many helpers were put into concentration camps as
+prisoners,\hspace{0pt}arrested, or immediately executed due to treason.
+Meanwhile, the majority of people who chose\hspace{0pt}to stay silent
+and do nothing were silenced by fear. Staying silent never helps the
+victim; it only\hspace{0pt}makes it easier for the
+perpetrator.\hspace{0pt}\\
+The choices of nations on whether to act or not to act also deeply
+impacted the outcome\hspace{0pt}of the Holocaust. From early on, British
+and American intelligence knew of genocide in\hspace{0pt}German-occupied
+eastern Europe through intercepted German radio. Despite this, the
+efforts\hspace{0pt}made by the Allies to further stop the Holocaust were
+disappointing. By 1938, a quarter of the\hspace{0pt}Jewish population in
+Germany had fled the country. Such a large influx of Jewish
+immigrants\hspace{0pt}were unwelcome in many countries, including the
+United States. In a 1938 survey of Americans,\hspace{0pt}69\%
+disapproved of accepting German Jewish refugees. This shows that
+antisemitism was not\hspace{0pt}limited to Nazi Germany.\hspace{0pt}\\
+In the summer of 1938, representatives from 32 nations met at the
+nine-day Evian\hspace{0pt}Conference to discuss Jewish immigration. Out
+of them, the Dominican Republic was the only\hspace{0pt}
+\end{quote}
+
+2\hspace{0pt}
+
+Jia\hspace{0pt}\hspace{0pt}3\hspace{0pt}
+
+\begin{quote}
+China tire tariff saved 1,200 jobs in the domestic tire production
+industry but lost 3,731 retail\hspace{0pt}jobs. In 2018, Trump's China
+tariff added a few steel and aluminum jobs, but lost 75,000 jobs
+in\hspace{0pt}consumer firms of steel and aluminum (Hebert). In all, the
+2018 US-China trade war cost the\hspace{0pt}American economy 300,000
+jobs, nearly 0.3\% of real GDP, and firms lost at least \$1.7 trillion
+in\hspace{0pt}stocks (``Trump's Trade War Has Killed 300,000 Jobs'').
+Factories didn't even move back to the\hspace{0pt}United States-- they
+simply moved from China to other countries in Southeast Asia. In the
+end,\hspace{0pt}American consumers paid the higher cost for no
+return.\hspace{0pt}\\
+Many examples have demonstrated that tariffs
+don't\hspace{0pt}\hspace{0pt}\\
+do a very good job of improving the\hspace{0pt}American economy---at
+least, not by themselves. Historically, tariffs like the Reconstruction
+Era\hspace{0pt}tariffs did indeed contribute to growth in the American
+economy by developing the American\hspace{0pt}steel industry to match
+those of European powers. But, although tariffs can buy time
+for\hspace{0pt}domestic industries to gain a footing on international
+competition, they are not sustainable.\hspace{0pt}Today, the United
+States still relies heavily on tariffs. Does this mean that we are
+falling behind?\hspace{0pt} Some short-term alternatives to tariffs
+include minimizing the \$297,000 to \$400,000 that\hspace{0pt}American
+firms each spend annually to meet regulations set by the government
+(Hebert) or\hspace{0pt}lowering taxes on businesses so they won't raise
+their product prices so high. That being said,\hspace{0pt}both of these
+alternatives have side effects in the long run.\hspace{0pt}\\
+To this, there is one more, long-term solution: investing in American
+education to\hspace{0pt}develop the necessary manufacturing skills in
+our workforce. 21st century America needs to\hspace{0pt}protect its
+manufacturing capabilities. Many studies have proven that American
+public education\hspace{0pt}has fallen behind other nations.
+Furthermore, many students are enrolled in four-year
+universities\hspace{0pt}when it isn't necessarily the best suit for
+them, nor for the workforce as a whole. Only 64.7\hspace{0pt}percent of
+students who started college in 2016 have graduated by now, which is
+already the\hspace{0pt}
+\end{quote}
+
+Jia\hspace{0pt}\hspace{0pt}4\hspace{0pt}
+
+\begin{quote}
+greatest percentage cohort as of 2025 (``Yearly Progress and
+Completion''). By offering\hspace{0pt}\\
+incentives to encourage job training instead of pushing every student
+toward a bachelor's degree,\hspace{0pt}the US could diversify its
+workforce and bring new skill sets to the table. While tariffs may
+buy\hspace{0pt}time for domestic industries, long-term success depends
+on the hard work and productivity of the\hspace{0pt}American
+people.\hspace{0pt}\\
+Ultimately, while tariffs may provide short-term relief, they are not
+sustainable in the\hspace{0pt}long run. Americans face higher prices and
+limited job growth when tariffs are applied by\hspace{0pt}themselves.
+However, if tariffs are combined with improving public education and
+the\hspace{0pt}\\
+workforce, Americans won't have to choose between patriotism and their
+economic goals when\hspace{0pt}buying a car---they will simply choose
+American.\hspace{0pt}
+\end{quote}
+
+Jia\hspace{0pt}\hspace{0pt}5\hspace{0pt}
+
+\begin{quote}
+Works Cited\hspace{0pt}\\
+Hebert, David.\hspace{0pt}\emph{\hspace{0pt}Alternatives to
+Tariffs\hspace{0pt}} 16 Apr. 2025,\hspace{0pt}\\
+https://lawliberty.org/alternatives-to-tariffs/. Accessed 24 Feb.
+2026.\hspace{0pt}\\
+``History of tariffs: From ancient times to the modern
+day.''\hspace{0pt}\emph{\hspace{0pt}Trade Treasury
+Payments\hspace{0pt}}\\
+2025,\hspace{0pt}\\
+https://tradetreasurypayments.com/articles/history-of-tariffs-from-ancient-times-to-the-m\hspace{0pt}
+odern-day. Accessed 9 Jan. 2026.\hspace{0pt}\\
+``Smoot-Hawley Tariff Act - Overview, Legislative History,
+Impact.''\hspace{0pt}\emph{\hspace{0pt}Corporate Finance\hspace{0pt}} ,
+31 Jan. 2021,\hspace{0pt}\\
+https://corporatefinanceinstitute.com/resources/economics/smoot-hawley-tariff-act/.\hspace{0pt}
+Accessed 24 Feb. 2026.\hspace{0pt}\\
+``Trump\textquotesingle s trade war has killed 300,000
+jobs.''\hspace{0pt}\emph{\hspace{0pt}}\\
+\emph{Yahoo\hspace{0pt}\hspace{0pt}} , 11 Sept. 2019,\hspace{0pt}
+https://finance.yahoo.com/news/trumps-trade-war-has-killed-300000-jobs-194717808.ht\hspace{0pt}
+ml. Accessed 11 Mar. 2026.\hspace{0pt}\\
+``Yearly Progress and
+Completion.''\hspace{0pt}\emph{\hspace{0pt}National
+Student\hspace{0pt}\hspace{0pt}Clearinghouse Research
+Center\hspace{0pt}}\\
+2025, https://nscresearchcenter.org/yearly-progress-and-completion/.
+Accessed 24 Feb.\hspace{0pt} 2026.\hspace{0pt}
+\end{quote}
+
+\end{document}
