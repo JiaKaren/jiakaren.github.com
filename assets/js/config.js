@@ -103,11 +103,7 @@ const CONFIG = {
     { id: 'classes', title: 'Classes', path: '/classes/', icon: '📚' },
     { id: 'videos', title: 'Videos', path: '/videos/', icon: '▶️' },
     { id: 'essays', title: 'Essays', path: '/essays/', icon: '📝' },
-    { id: 'activities', title: 'Activities', path: '/activities/', icon: '🎯' },
-    { id: 'resume', title: 'Resume', path: '/resume/', icon: '📄' },
-    { id: 'photos', title: 'Photos', path: '/photos/', icon: '📷' },
-    { id: 'puzzles', title: 'Puzzles', path: '/puzzles/', icon: '🧩' },
-    // { id: 'contact', title: 'Contact', path: '/contact/', icon: '✉️' },
+    { id: 'articles', title: 'Articles', path: '/articles/', icon: '📰' },
   ],
 
   // Get current theme

@@ -8,7 +8,7 @@ class Router {
         this.currentSection = 'home';
         this.sections = [
             'home', 'about', 'accomplishments', 'classes',
-            'videos', 'essays', 'activities', 'resume',
+            'videos', 'essays', 'articles', 'activities', 'resume',
             'photos', 'puzzles', 'library', 'contact'
         ];
         this.components = {
@@ -64,10 +64,15 @@ class Router {
             if (window.setupMobileNavigation) {
                 window.setupMobileNavigation();
             }
-            
+
             // Setup theme toggle after loading nav
             if (window.setupThemeToggle) {
                 window.setupThemeToggle();
+            }
+
+            // Ensure the language switcher is initialized after nav is present
+            if (window.setupLanguageSwitcher) {
+                window.setupLanguageSwitcher();
             }
         } catch (error) {
             console.error('Failed to load navigation:', error);
@@ -155,6 +160,11 @@ class Router {
             
             // Re-initialize features that depend on DOM
             this.initializeSectionFeatures(section);
+            
+            // Reapply current language to newly inserted content
+            if (window.translatePage) {
+                window.translatePage(window.currentLanguage || 'en');
+            }
             
             // Scroll to top
             window.scrollTo(0, 0);
