@@ -70,8 +70,11 @@ class ThemeManager {
 // ============================================
 
 const TRANSLATIONS = {
-  'en': {},
+  'en': {
+    'Search pages, essays, articles...': 'Search pages, essays, articles...'
+  },
   'zh-Hans': {
+    'Search pages, essays, articles...': '搜索页面、文章、作品...',
     'This is my first website collaborating with AI!': '这是我与AI合作的第一个网站！',
     'Welcome to my personal hub! Here you\'ll find information about my academic journey, professional achievements, creative projects, and passion for learning. Feel free to explore and reach out!': '欢迎来到我的个人中心！在这里您可以了解我的学术旅程、专业成就、创意项目和对学习的热情。请随意浏览并与我联系！',
     'Get to Know Me': '了解我',
@@ -154,9 +157,13 @@ const TRANSLATIONS = {
     'Coverage of the JGMS moving-on ceremony and highlights from the Class of 2026 celebration.': '报道JGMS毕业典礼及2026届庆祝活动亮点。',
     'I love to expand my knowledge of different cultures! I do this by traveling and learning languages. My first languages are English and Mandarin Chinese. Currently, I am learning Japanese, French, and Korean!': '我喜欢扩展对不同文化的了解！我通过旅行和学习语言来做到这一点。我的第一语言是英语和普通话。目前，我正在学习日语、法语和韩语！',
     'Another hobby of mine is performing arts. I love to sing and listen to music. Additionally, I play piano, percussion, and traditional Chinese instruments such as the ruan, liuqin, and guzheng.': '我的另一个爱好是表演艺术。我喜欢唱歌和听音乐。此外，我演奏钢琴、打击乐以及传统中国乐器，如阮、柳琴和古筝。',
-    'Built with HTML, CSS, and JavaScript': '使用 HTML、CSS 和 JavaScript 构建',
+    'Built with HTML, CSS, and JavaScript': '用 HTML、CSS 和 JavaScript 构建',
+    'Enter keywords to search...': '输入关键字进行搜索...',
+    'Search index not ready. Please try again.': '搜索索引尚未就绪。请重试。',
+    'No results found for': '找不到相关结果'
   },
   'zh-Hant': {
+    'Search pages, essays, articles...': '搜索頁面、文章、作品...',
     'This is my first website collaborating with AI!': '這是我與AI合作的第一個網站！',
     'Welcome to my personal hub! Here you\'ll find information about my academic journey, professional achievements, creative projects, and passion for learning. Feel free to explore and reach out!': '歡迎來到我的個人中心！在這裡您可以了解我的學術旅程、專業成就、創意專案和對學習的熱情。請隨意瀏覽並與我聯繫！',
     'Get to Know Me': '認識我',
@@ -250,8 +257,12 @@ const TRANSLATIONS = {
     'Computer Science Student | Researcher | Creative Developer': '計算機科學學生 | 研究員 | 創意開發者',
     // Videos paragraph
     'I began this YouTube channel at the age of 8, along with my brother and sister. The mission of this channel is to share creative and fun solutions to interesting math problems. More information about our team is': '我在八歲時與我的哥哥和姐姐共同開始了這個 YouTube 頻道。頻道的使命是分享對有趣數學問題的創意且有趣的解法。更多關於我們團隊的資訊：',
+    'Enter keywords to search...': '輸入關鍵字進行搜尋...',
+    'Search index not ready. Please try again.': '搜尋索引尚未就緒。請重試。',
+    'No results found for': '找不到相關結果'
   },
   'es': {
+    'Search pages, essays, articles...': 'Buscar páginas, artículos, ensayos...',
     'This is my first website collaborating with AI!': '¡Este es mi primer sitio web colaborando con IA!',
     'Welcome to my personal hub! Here you\'ll find information about my academic journey, professional achievements, creative projects, and passion for learning. Feel free to explore and reach out!': '¡Bienvenido a mi centro personal! Aquí encontrarás información sobre mi trayectoria académica, logros profesionales, proyectos creativos y pasión por el aprendizaje. ¡Siéntete libre de explorar y contactarme!',
     'Get to Know Me': 'Conóceme',
@@ -315,9 +326,11 @@ const TRANSLATIONS = {
     'In the Press': 'En la prensa',
     'Public newspaper articles written about me.': 'Artículos periodísticos publicados sobre mí.',
     'Read Article': 'Leer artículo',
+    'Enter keywords to search...': 'Ingrese palabras clave para buscar...',
+    'Search index not ready. Please try again.': 'El índice de búsqueda no está listo. Por favor, intente de nuevo.',
+    'No results found for': 'No se encontraron resultados para'
   },
-  'fr': {
-    'This is my first website collaborating with AI!': 'Ceci est mon premier site web en collaboration avec l’IA !',
+  'fr': {    'Search pages, essays, articles...': 'Rechercher des pages, des articles, des essais...',    'This is my first website collaborating with AI!': 'Ceci est mon premier site web en collaboration avec l’IA !',
     'Welcome to my personal hub! Here you\'ll find information about my academic journey, professional achievements, creative projects, and passion for learning. Feel free to explore and reach out!': 'Bienvenue sur mon espace personnel ! Vous trouverez ici des informations sur mon parcours académique, mes réalisations professionnelles, mes projets créatifs et ma passion pour l’apprentissage. N’hésitez pas à explorer et à me contacter !',
     'Get to Know Me': 'Découvrez-moi',
     'BLAH BLAH BLAH still in middle school': 'Bla bla bla toujours au collège.',
@@ -380,8 +393,14 @@ const TRANSLATIONS = {
     'In the Press': 'Dans la presse',
     'Public newspaper articles written about me.': 'Articles de presse publiés à mon sujet.',
     'Read Article': 'Lire l’article',
+    'Enter keywords to search...': 'Entrez des mots-clés pour rechercher...',
+    'Search index not ready. Please try again.': 'L\'index de recherche n\'est pas prêt. Veuillez réessayer.',
+    'No results found for': 'Aucun résultat trouvé pour'
   }
 };
+
+// Make TRANSLATIONS globally accessible
+window.TRANSLATIONS = TRANSLATIONS;
 
 const TRANSLATION_RULES = [
   {
@@ -416,6 +435,8 @@ const TRANSLATION_RULES = [
 
 const originalTextMap = new WeakMap();
 window.currentLanguage = 'en';
+window.translatePage = translatePage;
+window.updateLanguageLabel = updateLanguageLabel;
 
 function shouldTranslateNode(node) {
   if (!node || node.nodeType !== Node.TEXT_NODE) return false;
@@ -694,12 +715,53 @@ class SlideShowVideoManager {
 }
 
 // ============================================
+// Back to Top Button
+// ============================================
+
+class BackToTopButton {
+  constructor() {
+    this.button = document.getElementById('back-to-top');
+    if (!this.button) return;
+    
+    this.init();
+  }
+
+  init() {
+    // Show/hide button on scroll
+    window.addEventListener('scroll', () => this.toggleVisibility());
+    
+    // Scroll to top on click
+    this.button.addEventListener('click', () => this.scrollToTop());
+  }
+
+  toggleVisibility() {
+    // Show button when scrolled down more than 300px
+    if (window.scrollY > 300) {
+      this.button.classList.add('show');
+    } else {
+      this.button.classList.remove('show');
+    }
+  }
+
+  scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  }
+}
+
+// Make BackToTopButton available globally
+window.BackToTopButton = BackToTopButton;
+
+// ============================================
 // Initialize on DOM Ready
 // ============================================
 
 document.addEventListener('DOMContentLoaded', () => {
   // Initialize Theme Manager
   window.themeManager = new ThemeManager();
+  window.ThemeManager = ThemeManager;
   
   // Initialize Background Switcher
   window.bgSwitcher = new BackgroundSwitcher();
@@ -718,7 +780,8 @@ document.addEventListener('DOMContentLoaded', () => {
     new SlideShowVideoManager();
   }, 100);
 
-  // Setup bottom-right language switcher
+  // Setup toggle controls after DOM is ready
+  setupThemeToggle();
   setupLanguageSwitcher();
 
   // Apply saved translation after full load
@@ -735,16 +798,27 @@ function updateThemeToggleIcon() {
 
   const currentTheme = CONFIG.activeTheme;
   const isLight = currentTheme === 'lightDefault';
-  toggleBtn.textContent = isLight ? '☀️' : '🌙';
-  toggleBtn.title = isLight ? 'Switch to dark theme' : 'Switch to light theme';
+  
+  if (isLight) {
+    // Light theme - show sun icon
+    toggleBtn.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>';
+    toggleBtn.title = 'Switch to dark theme';
+  } else {
+    // Dark theme - show moon icon
+    toggleBtn.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>';
+    toggleBtn.title = 'Switch to light theme';
+  }
+  
   toggleBtn.setAttribute('aria-label', isLight ? 'Switch to dark theme' : 'Switch to light theme');
 }
 
 function setupThemeToggle() {
-  // Use delegated event so the button continues to work even after nav is reinserted
-  // Remove any previous delegated handler first
   if (window.__themeToggleHandler) {
     document.removeEventListener('click', window.__themeToggleHandler);
+  }
+
+  if (window.__themeChangeHandler) {
+    window.removeEventListener('themeChange', window.__themeChangeHandler);
   }
 
   window.__themeToggleHandler = function (e) {
@@ -757,11 +831,12 @@ function setupThemeToggle() {
     }
   };
 
+  window.__themeChangeHandler = updateThemeToggleIcon;
+
   document.addEventListener('click', window.__themeToggleHandler);
+  window.addEventListener('themeChange', window.__themeChangeHandler);
 
   updateThemeToggleIcon();
-  // Keep icon in sync when theme changes
-  window.addEventListener('themeChange', updateThemeToggleIcon);
 }
 
 function updateHtmlLang(lang) {
@@ -774,7 +849,6 @@ function setupLanguageSwitcher() {
     ? localStorage.getItem('selectedLanguage') || 'en'
     : 'en';
 
-  // If already created, reuse the existing switcher
   let wrapper = document.querySelector('.theme-switcher.language-switcher');
   if (!wrapper) {
     wrapper = document.createElement('div');
@@ -795,15 +869,14 @@ function setupLanguageSwitcher() {
   const select = wrapper.querySelector('#language-select');
   if (!select) return;
 
+  if (wrapper.__langChangeHandler) {
+    select.removeEventListener('change', wrapper.__langChangeHandler);
+  }
+
   select.value = savedLanguage;
   updateHtmlLang(select.value);
   updateLanguageLabel(select.value);
   translatePage(select.value);
-
-  // Ensure only one listener is attached
-  if (wrapper.__langChangeHandler) {
-    select.removeEventListener('change', wrapper.__langChangeHandler);
-  }
 
   wrapper.__langChangeHandler = (event) => {
     const nextLang = event.target.value;
@@ -818,8 +891,9 @@ function setupLanguageSwitcher() {
   select.addEventListener('change', wrapper.__langChangeHandler);
 }
 
-// Make setupThemeToggle globally accessible
 window.setupThemeToggle = setupThemeToggle;
+window.setupLanguageSwitcher = setupLanguageSwitcher;
+window.updateThemeToggleIcon = updateThemeToggleIcon;
 
 // ============================================
 // Mobile Navigation Toggle

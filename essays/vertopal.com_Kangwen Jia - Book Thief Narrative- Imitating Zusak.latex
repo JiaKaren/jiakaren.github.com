@@ -1,0 +1,152 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{}
+
+\begin{document}
+
+\begin{quote}
+Karen Jia\\
+Mrs. Breakall\\
+English 8 Advanced\\
+27 April 2026\\
+The Weight of Loving\\
+A woman leaned against the foggy window, letting out a shaky breath that
+she hadn't even noticed she was holding in. She could barely make out
+the imposing sign of that set of sad, sullen letters that stared
+unblinkingly back at her. \emph{MUNICH BANHOF}, it read. Whether it was
+blurry because of the window or her tears, she couldn't tell.
+
+The train started, and her mind flashed back.
+
+A sobbing girl clawed desperately at her mother's woolen coat, the
+already-worn texture beginning to come apart.
+
+The mother reached down and grabbed the small, shaking wrist with such
+intensity that the girl went still. In that moment, the mother's heart
+shattered into a million pieces. Could her daughter feel the love that
+it came from? Or would she grow to hate her for it? How she longed to
+soften her grip in that moment, to smooth out the girl's messed up hair
+and rub her frightened, tear-stained cheeks.
+
+Instead, she thrust the small hand down.
+
+\emph{It's all I can do, my darling.}
+
+\emph{I'm sorry.}
+
+The woman couldn't even kiss her goodbye. She couldn't even get one last
+glance. She couldn't bear to.
+\end{quote}
+
+30
+
+\begin{quote}
+\textbf{A RECURRING THEME IN MY ALBUMS}\\
+\textbf{All mothers must accept the inevitable:}\\
+\textbf{that one day, she will have to let her child go.}\\
+\textbf{But no mother ever imagines letting go like this.}
+
+And now the woman was tormenting herself. She was swimming through an
+ocean of obsidian, her heavy wool coat swallowing her whole. I know this
+because I was right there, watching from the murky swamp of her guilt.
+
+She wanted me to take her. How I, too, wished to free her from the
+suffering, to take her with me right then and there. But that was
+against the rules. \emph{Soon,} I wanted to assure her. \emph{Soon
+you'll be free.}
+
+And after what seemed like all of eternity, she surfaced.
+
+The wind cut its freezing blades into her cheeks, berating her for her
+negligence. She took it. Two officers in matching uniforms were ushering
+the crowd off the train, dividing them between men, women, and children.
+Families torn apart. Screaming. Crying. Perhaps the woman did at least
+one thing right, saving the pain of separation for sooner rather than
+later.
+
+``Disinfection'' was what they were told as the breathing corpses
+removed their belongings and clothing. Breathing corpses. That's what
+they were, really. Walking into their own graves.
+\end{quote}
+
+31
+
+\begin{quote}
+As the book thief's mother removed the wool coat from her shoulders,
+the\\
+emptiness it left behind felt unnatural. Although the material was
+already worn and shabby, it nevertheless offered a protection that was
+now all but gone.
+
+It was only a matter of time before the silent shrieking-- the souls of
+sisters, daughters, mothers, begging me to take them. I tried working as
+efficiently as I could, but you could only go so fast squeezing through
+a room of packed bodies.
+
+The book thief's mother was one of the two thousand souls that I took
+away that day in that awful chamber. By the time I retrieved her, she
+was glowing a faint yellow, still slightly warm as I rested her upon my
+shoulder.
+
+Later, I would find myself coming back for more and more rounds.
+
+I truly believe that if she had to do it all over again, she would have
+changed nothing. Choosing her daughter's life over her own pride, that
+was love in its most heartbreaking form.
+
+To this day, I remember the weight of the wool coat more than I remember
+her face. Perhaps it was the sympathy for the mother that led me to keep
+an eye out for the little book thief back on Himmel Street.
+\end{quote}
+
+32
+
+\end{document}

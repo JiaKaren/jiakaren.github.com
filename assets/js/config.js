@@ -137,6 +137,8 @@ const CONFIG = {
   },
 };
 
+window.CONFIG = CONFIG;
+
 // Initialize on load
 if (document.readyState === 'loading') {
   document.addEventListener('DOMContentLoaded', () => CONFIG.loadSavedTheme());

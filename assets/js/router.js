@@ -88,6 +88,11 @@ class Router {
             const html = await response.text();
             this.components.footer = html;
             document.getElementById('footer-container').innerHTML = html;
+            
+            // Initialize Back to Top Button after footer is loaded
+            if (window.BackToTopButton) {
+                new window.BackToTopButton();
+            }
         } catch (error) {
             console.error('Failed to load footer:', error);
         }

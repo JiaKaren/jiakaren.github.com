@@ -13,10 +13,11 @@
     
     <title>Karen Jia - Personal Website</title>
     <link rel="icon" href="home/githubheadshot.png" type="image/x-icon">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/lightbox.css">
+    <link rel="stylesheet" href="assets/css/style.css?v=20260815">
+    <link rel="stylesheet" href="assets/css/lightbox.css?v=20260815">
     <link rel="canonical" href="https://yourdomain.com">
-    <script src="assets/js/config.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
+    <script src="assets/js/config.js?v=20260815" defer></script>
 </head>
 <body>
     <!-- Navigation Component Container -->
@@ -28,8 +29,26 @@
     <!-- Footer Component Container -->
     <div id="footer-container"></div>
 
-    <!-- Router and Main Scripts -->
-    <script src="assets/js/router.js" defer></script>
-    <script src="assets/js/main.js" defer></script>
+    <!-- Search Overlay Component -->
+    <div id="search-overlay" class="search-overlay">
+        <div class="search-container">
+            <button id="search-close-btn" class="search-close-btn" title="Close search">✕</button>
+            <div class="search-wrapper">
+                <input 
+                    type="text" 
+                    id="search-input" 
+                    class="search-input" 
+                    placeholder="Search pages, essays, articles..."
+                    autocomplete="off"
+                >
+            </div>
+            <div id="search-results" class="search-results"></div>
+        </div>
+    </div>
+
+    <!-- Main, Router and Search Scripts (main.js must load before router.js) -->
+    <script src="assets/js/main.js?v=20260815" defer></script>
+    <script src="assets/js/router.js?v=20260815" defer></script>
+    <script src="assets/js/search.js?v=20260815" defer></script>
 </body>
 </html>
